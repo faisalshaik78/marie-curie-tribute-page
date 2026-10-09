@@ -2,10 +2,6 @@
 
 A responsive tribute page celebrating the life, scientific work, and legacy of **Marie Curie**, the pioneering physicist and chemist known for her research on radioactivity.
 
-## Project preview
-
-- **Repository:** https://github.com/faisalshaik78/marie-curie-tribute-page
-
 
 ## Features
 
