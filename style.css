@@ -82,6 +82,61 @@ ol.timeline p { max-width: 60ch; opacity: .9; }
 .card h3 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.25; margin-bottom: .5rem; }
 .card p { font-size: .97rem; line-height: 1.6; }
 
+.legacy-section {
+  background: linear-gradient(180deg, #f5f1eb 0%, #edf3ef 100%);
+}
+.legacy-wrap {
+  display: grid;
+  grid-template-columns: 1.4fr .9fr;
+  gap: 2rem;
+  align-items: center;
+}
+.eyebrow {
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--copper);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.legacy-copy p {
+  margin-bottom: 1rem;
+  font-size: 1.08rem;
+}
+.legacy-panel {
+  background: var(--night);
+  color: var(--paper);
+  padding: 1.75rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 18px 35px rgba(14, 29, 27, .12);
+}
+.panel-label {
+  color: var(--glow);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.legacy-panel ul {
+  list-style: none;
+  display: grid;
+  gap: .9rem;
+}
+.legacy-panel li {
+  position: relative;
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
+.legacy-panel li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--glow);
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
 footer { background: #0a1514; color: var(--paper); text-align: center; padding: 2rem 1.5rem; font-size: .9rem; opacity: .95; }
 footer a { color: var(--glow); }
 
@@ -89,5 +144,6 @@ footer a { color: var(--glow); }
   .hero { grid-template-columns: 1fr; }
   figure.portrait { order: -1; max-width: 420px; }
   #bio p:first-of-type::first-letter { font-size: 3.4rem; }
+  .legacy-wrap { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
