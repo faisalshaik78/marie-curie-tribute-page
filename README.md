@@ -1,29 +1,34 @@
 # Marie Curie Tribute Page
 
-A responsive tribute webpage celebrating **Marie Curie**, the pioneering scientist whose research on radioactivity helped shape modern science.
+A responsive tribute page celebrating the life, scientific work, and legacy of **Marie Curie**, the pioneering physicist and chemist known for her research on radioactivity.
 
-## Overview
+## Project preview
 
-This project presents key moments from Marie Curie's life, her scientific achievements, and her lasting legacy in a clean, editorial-style layout. It was built to practise semantic HTML, responsive CSS, typography, and visual design.
+- **Repository:** https://github.com/faisalshaik78/marie-curie-tribute-page
+- **Live demo:** https://faisalshaik78.github.io/marie-curie-tribute-page/
+
+> If the live demo does not open, enable GitHub Pages in **Settings → Pages** and select the branch containing `index.html` as the deployment source.
 
 ## Features
 
-- **Responsive layout** designed for desktop, tablet, and mobile screens
-- **Life timeline** highlighting important milestones
-- **Achievement cards** showcasing scientific contributions and awards
-- **Inspirational quote** celebrating Curie's legacy
-- **Typography pairing** using Fraunces and IBM Plex Sans
-- **Design tokens** with a night, glow, paper, and copper-inspired palette
-- **Semantic HTML and readable styling**
-- **No JavaScript or framework dependencies**
+- A clear hero section introducing Marie Curie
+- Biographical overview and an inspirational quotation
+- A chronological timeline of important milestones
+- Cards highlighting scientific achievements
+- Responsive layout for desktop, tablet, and mobile screens
+- Semantic HTML and visible keyboard-focus styling
+- Reduced-motion support for users who prefer less animation
+- Consistent typography, colors, and spacing using CSS custom properties
 
-## Built With
+## Built with
 
-- HTML5
-- CSS3
-- Google Fonts: Fraunces and IBM Plex Sans
+- **HTML5** — semantic page structure
+- **CSS3** — layout, responsive styling, and visual design
+- **Google Fonts** — Fraunces and IBM Plex Sans
 
-## Project Structure
+No JavaScript, frontend framework, or build tools are required.
+
+## Project structure
 
 ```text
 marie-curie-tribute-page/
@@ -32,9 +37,7 @@ marie-curie-tribute-page/
 └── README.md
 ```
 
-## Run Locally
-
-No installation or build step is required.
+## Run locally
 
 1. Clone the repository:
 
@@ -42,38 +45,38 @@ No installation or build step is required.
    git clone https://github.com/faisalshaik78/marie-curie-tribute-page.git
    ```
 
-2. Move into the project directory:
+2. Open the project folder:
 
    ```bash
    cd marie-curie-tribute-page
    ```
 
-3. Open `index.html` in your browser.
+3. Open `index.html` in your browser. For a smoother development workflow, you can also use the **Live Server** extension in Visual Studio Code.
 
-## Deploy with GitHub Pages
+## Deployment with GitHub Pages
 
-To publish the static website:
+1. Open the repository on GitHub.
+2. Go to **Settings → Pages**.
+3. Under the build and deployment section, select **Deploy from a branch**.
+4. Choose the default branch and the `/(root)` folder, then save.
+5. Wait for the deployment to finish and open the live demo link above.
 
-1. Open the repository on GitHub and go to **Settings**.
-2. Select **Pages** from the sidebar.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the `main` branch and the `/(root)` folder.
-5. Click **Save** and wait for the deployment to complete.
+## Accessibility and responsive design
 
-After GitHub Pages is enabled and deployment succeeds, the site is expected at:
+The page uses meaningful HTML sections, descriptive image alternative text, keyboard-focus styles, and a layout that adapts to smaller screens. It also includes a reduced-motion preference in CSS.
 
-**Live Demo:** https://faisalshaik78.github.io/marie-curie-tribute-page/
-
-## Sources and References
+## References
 
 - [Encyclopaedia Britannica — Marie Curie](https://www.britannica.com/biography/Marie-Curie)
 - [Wikipedia — Marie Curie](https://en.wikipedia.org/wiki/Marie_Curie)
-- [Wikimedia Commons](https://commons.wikimedia.org/) — image and visual references
+- [Wikimedia Commons](https://commons.wikimedia.org/) for image media
 
-## Project Goal
+## What I learned
 
-This project is a frontend practice exercise focused on responsive design, semantic markup, typography, and CSS styling, while paying tribute to one of history's most influential scientists.
+This project is a practice exercise in semantic HTML, responsive CSS, typography, layout composition, and presenting biographical information in a clear, accessible format.
 
----
+## Possible next improvements
 
-**Made with HTML5 and CSS3.**
+- Add a screenshot or GIF of the page to this README
+- Test the page across multiple browsers and screen sizes
+- Review image-source attribution and loading behavior
