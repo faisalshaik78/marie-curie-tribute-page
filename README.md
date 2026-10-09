@@ -5,9 +5,7 @@ A responsive tribute page celebrating the life, scientific work, and legacy of *
 ## Project preview
 
 - **Repository:** https://github.com/faisalshaik78/marie-curie-tribute-page
-- **Live demo:** https://faisalshaik78.github.io/marie-curie-tribute-page/
 
-> If the live demo does not open, enable GitHub Pages in **Settings → Pages** and select the branch containing `index.html` as the deployment source.
 
 ## Features
 
@@ -59,7 +57,7 @@ marie-curie-tribute-page/
 2. Go to **Settings → Pages**.
 3. Under the build and deployment section, select **Deploy from a branch**.
 4. Choose the default branch and the `/(root)` folder, then save.
-5. Wait for the deployment to finish and open the live demo link above.
+5. Wait for the deployment to finish, then open the published site URL shown in GitHub Pages settings.
 
 ## Accessibility and responsive design
 
